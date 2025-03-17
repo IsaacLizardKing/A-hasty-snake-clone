@@ -45,4 +45,5 @@ fn tick() {
 
 fn startup() {
     clear_screen();
+    SnakeDriver::draw_frame();
 }
